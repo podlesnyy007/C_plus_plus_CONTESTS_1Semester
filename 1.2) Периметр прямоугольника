@@ -1,3 +1,7 @@
+/* 
+Дан прямоугольник со сторонами a и b. Найдите его периметр.
+*/
+
 #include <iostream>
 using namespace std;
 
