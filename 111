@@ -16,3 +16,21 @@ int main()
     cout << fixed << setprecision(2) << e;
     return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <iomanip>
+
+double tp(double x, double y, double z) {
+    double p = (x + y + z) / 2;
+    return sqrt(p*(p-x)*(p-y)*(p-z));
+}
+
+int main()
+{
+    double a, b, c, d, e, f, g;
+    cin >> a >> b >> c >> d >> e >> f >> g;
+
+}
