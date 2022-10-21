@@ -3,13 +3,13 @@ using namespace std;
 #include <cmath>
 #include <iomanip>
 
-int tp(int x, int y) {
+double tp(double x, double y) {
     return sqrt(pow(x, 2) + pow(y, 2));
 }
 
 int main()
 {
-    float a, b, c, d, e;
+    double a, b, c, d, e;
     cin >> a >> b >> c;
     d = tp(a, b);
     e = tp(c, d);
