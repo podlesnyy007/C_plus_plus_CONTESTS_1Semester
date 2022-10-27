@@ -1,3 +1,7 @@
+/*
+Найдите длину стороны BD фигуры ABDC по заданным сторонам AB, AC и DC, используя подпрограмму определения гипотенузы по двум катетам.
+*/
+
 #include <iostream>
 using namespace std;
 #include <cmath>
@@ -15,22 +19,4 @@ int main()
     e = tp(c, d);
     cout << fixed << setprecision(2) << e;
     return 0;
-}
-
-
-#include <iostream>
-using namespace std;
-#include <cmath>
-#include <iomanip>
-
-double tp(double x, double y, double z) {
-    double p = (x + y + z) / 2;
-    return sqrt(p*(p-x)*(p-y)*(p-z));
-}
-
-int main()
-{
-    double a, b, c, d, e, f, g;
-    cin >> a >> b >> c >> d >> e >> f >> g;
-
 }
