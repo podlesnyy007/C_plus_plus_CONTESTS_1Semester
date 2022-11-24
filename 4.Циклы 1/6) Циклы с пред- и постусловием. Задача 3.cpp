@@ -4,13 +4,15 @@ using namespace std;
 
 int main()
 {
-    int m, m0, k = 0;
+    int m, m0;
     cin >> m >> m0;
+    if (m0 >= m)
+        cout << 0;
     for (int i = 1; m0 < m; i++) {
         int x;
         cin >> x;
         if (x > 0)
-            k += x;
+            m0 += x;
         if (x <= 0)
             i--;
         if (m0 >= m)
